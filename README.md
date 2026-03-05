@@ -6,10 +6,44 @@
 
 </div>
 
-## :parrot: Introduction
-Lengthy acquisition is a primary challenge for MR imaging in clinics. Highly accelerated MR imaging can lead to increased noise, reducing the readability and reliability of MR images for disease diagnosis. Here we propose a unified denoising model for multi-organ accelerated MRI, which can be directly applied to the reconstructed images by commercial reconstruction algorithms. Our model was developed on a prospectively collected large-scale real-world MRI dataset containing 148,930 noisy-clean image pairs from six clinical centers and four MRI vendors, covering six organs and 38 MRI protocols. Our model significantly outperforms the state-of-the-art denoising methods consistently in PSNR, SSIM, and LPIPS on 20,143 real-world image pairs. The denoised images were further evaluated by tissue segmentation, achieving 7.05% improvement in Dice score compared to the noisy counterpart. Besides, we directly applied our denoising model on 46,870 external clinical images from four cohorts, and our model holds promise for great generalizability and robustness. Last but not least, two radiologists conducted extensive clinical evaluation on the denoised images of different organs from multiple aspects including 1) overall image quality and diagnosis confidence and 2) disease diagnosis. It turns out that our denoised images can effectively preserve visual fidelity and achieve equivalent diagnosis performance as using clean images even under upto 3× further acceleration of clinically used MRI protocols such that many MRI acquisitions can be completed within 1min, which holds great promise for diverse clinical applications.
-
 ## :fire: Updates
 
 - 2026.03.06 The paper has been uploaded to arXiv.
 - 2026.03.04 The paper has been accepted by _npj Digital Medicine_.
+
+## :parrot: Introduction
+In this paper, we proposed a unified denoising model for accelerated MRI, especially for older-generation 1.5T MR scanners. This model can be directly applied to the reconstructed images by commercial reconstruction algorithms embedded in scanners. This study includes:
+
+**Large-scale and diverse real-world MR noisy-clean paired image dataset**
+We collected a large-scale prospective dataset, which consists of 5,366 real-world noisy-clean volume pairs (N = 102,060 slice pairs), covering six organs including head (N = 37,482), knee (N = 8,329), C-spine (N = 14,097), L-spine (N = 14,447), T-spine (N = 18,139), and shoulder (N = 9,566) with 82 MRI protocols (e.g., T1w, T1-FLAIR, T2w, T2-FLAIR, DWI, PDw, DIXON), and three MRI manufacturers (i.e., SIEMENS, GE, Philips) acquired from January 2024 to August 2024 in three hospitals in Shenzhen and Guangzhou, China. Besides, for external evaluation, we further collected 2,157 volume pairs (N = 46,870 slice pairs) of healthy and non-healthy subjects including MRI scanners of Siemens, GE, UIH, and Philips from four data centers from October 2024 to March 2025 covering totally 96 MRI protocols (Siemens:29, GE:25, UIH:14, Philips:19).
+
+![alt text](images/Fig1(a).png)
+
+**Model architecture**
+Our denoising framework contains two main modules, namely, a non-linear cascaded-trained degradation model and a text-guided variational diffusion model. These two modules were trained individually and used collaboratively in the inference phase.
+
+![alt text](images/Fig1(b).png)
+
+**Extensive clinical evaluation**
+We conducted extensive clinical evaluation to evaluated the real-world clinical performance of our method. Reader studies were conducted by two radiologists with 5 and 3 years of specialty experience, respectively, to evaluate the
+clinical utility of our model.
+
+![alt text](images/Fig1(c).png)
+
+# :page_facing_up: Citation
+
+If you find this project useful in your research, please consider cite:
+```BibTeX
+@article{shao2026realworldmridenoising,
+      title={Real-world Unified Denoising for Multi-organ Fast MRI: A Large-scale Prospective Validation}, 
+      author={Yuchen Shao and Hongyan Huang and Lingyan Zhang and Dongsheng Li and Zhiguang Ding and Fan Wang and Shengli Chen and Shiwei Lin and Yuning Gu and Mu Du and Hongbing Li and Jiuping Liang and Xiaoqian Huang and Aowen Liu and Jiafu Zhong and Yiqiang Zhan and Xiang Sean Zhou and Feng Shi and Shu Liao and Kaicong Sun and Dinggang Shen and Yingwei Qiu},
+      journal={npj Digital Medicine}
+      year={2026}
+}
+```
+
+# :dizzy: Acknowledgement
+
+Thanks to the open source of the following projects:
+
+- [RED-diff](https://github.com/NVlabs/RED-diff)
