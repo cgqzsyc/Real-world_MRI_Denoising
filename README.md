@@ -4,7 +4,7 @@
 
 [Yuchen Shao\*\#](https://github.com/cgqzsyc), Hongyan Huang\*, Lingyan Zhang\*, Dongsheng Li\*, Zhiguang Ding, Fan Wang, Shengli Chen, Shiwei Lin, Yuning Gu, Mu Du, Hongbing Li, Jiuping Liang, Xiaoqian Huang, Aowen Liu, Jiafu Zhong, [Yiqiang Zhan](https://scholar.google.com/citations?user=N4sca6EAAAAJ&hl=zh-CN&oi=ao), [Xiang Sean Zhou](https://scholar.google.com/citations?user=-bp44DoAAAAJ&hl=zh-CN), [Feng Shi](https://scholar.google.com/citations?user=MztESj8AAAAJ&hl=zh-CN&oi=ao), [Shu Liao](https://scholar.google.com/citations?user=INL-unYAAAAJ&hl=zh-CN&oi=ao), Kaicong Sun†, [Dinggang Shen†](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN&oi=sra), and Yingwei Qiu†
 
-\* Co-first author † Corresponding author
+\* Co-first author  † Corresponding author
 
 </div>
 
@@ -17,7 +17,7 @@
 In this paper, we proposed a unified denoising model for accelerated MRI, especially for older-generation 1.5T MR scanners. This model can be directly applied to the reconstructed images by commercial reconstruction algorithms embedded in scanners. This study includes:
 
 **Large-scale and diverse real-world MR noisy-clean paired image dataset**
-We collected a large-scale prospective dataset, which consists of 5,366 real-world noisy-clean volume pairs (N = 102,060 slice pairs), covering six organs including head (N = 37,482), knee (N = 8,329), C-spine (N = 14,097), L-spine (N = 14,447), T-spine (N = 18,139), and shoulder (N = 9,566) with 82 MRI protocols (e.g., T1w, T1-FLAIR, T2w, T2-FLAIR, DWI, PDw, DIXON), and three MRI manufacturers (i.e., SIEMENS, GE, Philips) acquired from January 2024 to August 2024 in three hospitals in Shenzhen and Guangzhou, China. Besides, for external evaluation, we further collected 2,157 volume pairs (N = 46,870 slice pairs) of healthy and non-healthy subjects including MRI scanners of Siemens, GE, UIH, and Philips from four data centers from October 2024 to March 2025 covering totally 96 MRI protocols (Siemens:29, GE:25, UIH:14, Philips:19).
+We collected a large-scale prospective dataset, which consists of 5,366 real-world noisy-clean volume pairs (N = 102,060 slice pairs), covering six organs including head (N = 37,482), knee (N = 8,329), C-spine (N = 14,097), L-spine (N = 14,447), T-spine (N = 18,139), and shoulder (N = 9,566) with 82 MRI protocols (e.g., T1w, T1-FLAIR, T2w, T2-FLAIR, DWI, PDw, DIXON), and three MRI manufacturers (i.e., SIEMENS, GE, Philips) acquired from January 2024 to August 2024 in three hospitals in Shenzhen and Guangzhou, China. Besides, for external evaluation, we further collected 2,157 volume pairs (N = 46,870 slice pairs) of healthy and non-healthy subjects including MRI scanners of Siemens, GE, UIH, and Philips from four data centers from October 2024 to March 2025 covering totally 96 MRI protocols (Siemens: 29, GE: 25, UIH: 14, Philips: 19).
 
 ![alt text](images/Fig1(a).png)
 
