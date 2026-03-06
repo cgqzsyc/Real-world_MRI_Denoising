@@ -48,4 +48,6 @@ If you find this project useful in your research, please consider cite:
 
 Thanks to the open source of the following projects:
 
-- [https://github.com/NVlabs/RED-diff](https://github.com/NVlabs/RED-diff)
+- [NVlabs/RED-diff](https://github.com/NVlabs/RED-diff)
+- [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+- [phillipi/pix2pix](https://github.com/phillipi/pix2pix)
