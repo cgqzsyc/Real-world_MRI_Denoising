@@ -2,7 +2,7 @@
 
 <h1><a href="https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN&oi=ao">[npj Digital Medicine 2026] Real-world Unified Denoising for Multi-organ Fast MRI: A Large-scale Prospective Validation</a></h1>
 
-[Yuchen Shao\*\#](https://github.com/cgqzsyc), Hongyan Huang\*, Lingyan Zhang\*, Dongsheng Li\*, Zhiguang Ding, Fan Wang, Shengli Chen, Shiwei Lin, Yuning Gu, Mu Du, Hongbing Li, Jiuping Liang, Xiaoqian Huang, Aowen Liu, Jiafu Zhong, [Yiqiang Zhan](https://scholar.google.com/citations?user=N4sca6EAAAAJ&hl=zh-CN&oi=ao), [Xiang Sean Zhou](https://scholar.google.com/citations?user=-bp44DoAAAAJ&hl=zh-CN), [Feng Shi](https://scholar.google.com/citations?user=MztESj8AAAAJ&hl=zh-CN&oi=ao), [Shu Liao](https://scholar.google.com/citations?user=INL-unYAAAAJ&hl=zh-CN&oi=ao), Kaicong Sun†, [Dinggang Shen†](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN&oi=sra), and Yingwei Qiu†
+[Yuchen Shao\*](https://github.com/cgqzsyc), Hongyan Huang\*, Lingyan Zhang\*, Dongsheng Li\*, Zhiguang Ding, Fan Wang, Shengli Chen, Shiwei Lin, Yuning Gu, Mu Du, Hongbing Li, Jiuping Liang, Xiaoqian Huang, Aowen Liu, Jiafu Zhong, [Yiqiang Zhan](https://scholar.google.com/citations?user=N4sca6EAAAAJ&hl=zh-CN&oi=ao), [Xiang Sean Zhou](https://scholar.google.com/citations?user=-bp44DoAAAAJ&hl=zh-CN), [Feng Shi](https://scholar.google.com/citations?user=MztESj8AAAAJ&hl=zh-CN&oi=ao), [Shu Liao](https://scholar.google.com/citations?user=INL-unYAAAAJ&hl=zh-CN&oi=ao), Kaicong Sun†, [Dinggang Shen†](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN&oi=sra), and Yingwei Qiu†
 
 \* Co-first author  † Corresponding author
 
