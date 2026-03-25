@@ -10,7 +10,7 @@
 
 ## :fire: Updates
 
-- 2026.03.06 The paper has been uploaded to arXiv.
+- 2026.03.19 The paper has been published.
 - 2026.03.04 The paper has been accepted by _npj Digital Medicine_.
 
 ## :parrot: Introduction
