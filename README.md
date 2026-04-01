@@ -41,6 +41,7 @@ If you find this project useful in your research, please consider cite:
       author={Yuchen Shao and Hongyan Huang and Lingyan Zhang and Dongsheng Li and Zhiguang Ding and Fan Wang and Shengli Chen and Shiwei Lin and Yuning Gu and Mu Du and Hongbing Li and Jiuping Liang and Xiaoqian Huang and Aowen Liu and Jiafu Zhong and Yiqiang Zhan and Xiang Sean Zhou and Feng Shi and Shu Liao and Kaicong Sun and Dinggang Shen and Yingwei Qiu},
       journal={npj Digital Medicine}
       year={2026}
+      doi={https://doi.org/10.1038/s41746-026-02548-y}
 }
 ```
 
